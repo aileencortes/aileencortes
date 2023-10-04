@@ -65,6 +65,7 @@ div.gallery{
 
 div.gallery img{
     display: block;
+    border-bottom: 3px solid black;
     width: 180px;
     height:100px;
 
