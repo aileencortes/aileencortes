@@ -16,6 +16,7 @@ h1{
     width: 500px;
     border-radius: 80%;
 }
+
 /** Navigation CSS Begins **/
 .pill-nav a{
     display:inline-block;
@@ -44,7 +45,7 @@ h2{
 .main_index{
     margin: auto;
     width: 65%;
-    background-color: rgb(255, 235, 169);
+    background-color: #ffeba9;
     border: 4px solid black;
     padding: 4px;
 }
@@ -54,3 +55,23 @@ p{
     font-family: 'Tinos', serif;
     font-size: 20px;
 }
+/** Image Gallery CSS Begins **/
+div.gallery{
+    margin: 15px;
+    border: 2px solid black;
+    float: left;
+    width: 180px;
+}
+
+div.gallery img{
+    display: block;
+    width: 180px;
+    height:100px;
+
+}
+ div.desc{
+    padding: 10px;
+    background-color: #ffeba9;
+    text-align: center;
+    font-family: 'Tinos', serif;
+ }
