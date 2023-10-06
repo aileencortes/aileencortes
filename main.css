@@ -282,3 +282,47 @@ select{
     background-color: rgba(229, 208, 106, 0.601);
 }
 /** Forms CSS Ends **/
+
+/** Location CSS Begins **/
+
+
+.operation{
+    display: flex;
+}
+.location{
+    margin-left: 25em;
+    margin-top: 12px;
+    width:18%;
+    padding: 20px;
+    border: 3px solid black;
+    border-radius: 6px;
+    background-color: #ffeba9;
+    overflow: hidden;
+}
+.location ul{
+    list-style: none;
+}
+
+.location ul li{
+    margin-bottom: 8px;
+}
+
+.right{
+    width: 350px;
+    height: 450px;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-top: 10px;
+  }
+
+address{
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: #ffeba9;
+    text-align: center;
+    margin-left: 25em;
+    margin-top: 12px;
+    width:45%;
+    padding: 20px;
+}
