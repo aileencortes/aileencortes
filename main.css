@@ -6,7 +6,7 @@ body{
     background-attachment: scroll;
     background-size: cover;
 }
-/** Basic H1, H2, H3, P, and footer **/
+/** Basic H1, H2, H3, P, H4, and footer **/
 h1{
     text-align: center;
     color: white;
@@ -32,6 +32,14 @@ p{
 }
 footer{
  text-align: center;
+}
+
+h4{
+    text-align: center;
+    font-family: 'Tinos', serif;
+    font-size: 30px;
+    margin-top: 7px;
+    margin-bottom: 4px;
 }
 /** logo image**/
 #logoimage{ 
@@ -115,8 +123,32 @@ div.gallery img{
     text-align: center;
     padding: 20px;
 }
-
 .container:hover .overlay{
     opacity:1;
 }
 /** Image Overlay CSS Ends **/
+
+/** Rescue Image & Adoption Image CSS **/
+
+.wrapper{
+    margin: 150px auto;
+    width:70%;
+    border: 3px solid black;
+    background-color: #ffeba9;
+}
+
+.left{
+  max-width: 320px;
+  float: left;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin-right: 15px;
+  margin-left: 5px;
+  margin-top: 10px;
+}
+
+.tex-box p {
+    color: green;
+
+}
+
