@@ -128,7 +128,7 @@ div.gallery img{
 }
 /** Image Overlay CSS Ends **/
 
-/** Rescue Image & Adoption Image CSS **/
+/** Rescue Image & Adoption Image CSS Begins **/
 
 .wrapper{
     margin-left: 13em;
@@ -140,7 +140,6 @@ div.gallery img{
 }
 
 .left{
-  max-width: 320px auto;
   float: left;
   border: 3px solid black;
   border-radius: 10px;
@@ -149,4 +148,21 @@ div.gallery img{
   margin-top: 10px;
 }
 
+/** Rescue Image & Adoption Image CSS Ends **/
 
+/** FAQ CSS **/
+
+.feature-card{
+    margin: auto;
+    width: 65%;
+    background-color: #ffeba9;
+    border: 4px solid black;
+    padding: 4px;
+    text-align: center;
+}
+.feature-card ul{
+    list-style: circle;
+    font-family: 'Tinos', serif;
+    font-size: 20px;
+    text-align: left;
+}
