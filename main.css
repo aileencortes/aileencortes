@@ -131,14 +131,16 @@ div.gallery img{
 /** Rescue Image & Adoption Image CSS **/
 
 .wrapper{
-    margin: 150px auto;
+    margin-left: 13em;
+    margin-top: 12px;
     width:70%;
+    padding: 20px;
     border: 3px solid black;
     background-color: #ffeba9;
 }
 
 .left{
-  max-width: 320px;
+  max-width: 320px auto;
   float: left;
   border: 3px solid black;
   border-radius: 10px;
@@ -147,8 +149,4 @@ div.gallery img{
   margin-top: 10px;
 }
 
-.tex-box p {
-    color: green;
-
-}
 
